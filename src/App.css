@@ -1,0 +1,14 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  
+  --title-border: #FF8225;
+  --font-color: #173B45;
+  --bg-white: #F8EDED;
+  --color-line: #B43F3F;
+}
+
+body {
+  margin: 0rem;
+  background-color: #F8EDED;
+}
