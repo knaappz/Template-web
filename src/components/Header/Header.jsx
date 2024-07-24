@@ -5,10 +5,8 @@ export default function Header() {
 
   return (
     <section id='header'>
-        <div className='color-line'></div>
-
       <div className='header-box'>
-        <h1>WEBNAME</h1>
+        <h3>Patrycja ignatowicz</h3>
         <NavLinks/>
       </div>
     </section>
