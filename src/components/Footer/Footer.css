@@ -1,0 +1,22 @@
+#footer{
+    height: 20rem;
+    background-color: var(--font-color);
+    width: 100%;
+    color: var(--bg-white);
+    background-color: var(--font-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 7rem;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+}
+
+.footer-box p {
+    width: 20rem;
+}

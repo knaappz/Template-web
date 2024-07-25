@@ -1,13 +1,15 @@
 import './MainContainer.css'
-import Omnie from './Omnie'
+import About from './About'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
 
 export default function MainContainer() {
 
   return (
   <section id='main-container'>
     <Portfolio/>
-    <Omnie/> 
+    <About/> 
+    <Contact/> 
   </section>  
 )
 }

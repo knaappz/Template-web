@@ -1,5 +1,4 @@
 #main-container {
-    height: 100rem;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -7,24 +6,41 @@
     gap: 5rem;
 }
 
-#portfolio {
-    height: 100vh;
-    background-color: var(--font-color);
+.section-title {
+    width: 100%;
 }
 
-#omnie, #portfolio {
+#portfolio, #about, #contact {
+    height: 100vh;
+    background-color: var(--font-color);
     width: 100%;
     color: var(--bg-white);
     background-color: var(--font-color);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#omnie .profile {
-    width: 10rem;
-    height: 10rem;
+#about .profile-img {
+    width: 15rem;
+    height: 15rem;
     background-color: antiquewhite;
 }
 
-.omnie-box, .portfolio-box {
+.about-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-box p {
+    width: 20rem;
+}
+
+.about-box, .portfolio-box, .contact-box {
     margin: 1.5rem;
 }
+
+.contact-box {
+    display: flex;
+    flex-direction: column;}

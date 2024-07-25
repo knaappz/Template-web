@@ -4,9 +4,9 @@ export default function NavLinks() {
 
   return (
     <section className='nav-links'>
-        <p>Portfolio</p>
-        <p>o mnie</p>
-        <p>Kontakt</p>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">O mnie</a>
+        <a href="#contact">Kontakt</a>
     </section>
     
   )
