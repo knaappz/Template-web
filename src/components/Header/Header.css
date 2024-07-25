@@ -1,3 +1,5 @@
+/* HEADER SECTION */
+
 #header {
     margin: 0;
     width: 100%;
@@ -8,8 +10,14 @@
     flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--font-color);
-    border-top: .4rem solid var(--color-line);
 }
+
+.color-line {
+  width: 100%;
+  height: .5rem;
+  background: var(--title-border-gr);
+}
+
 
 .header-box {
     width: 90vw;
@@ -22,12 +30,14 @@
     text-transform: uppercase;
     padding-bottom: .2REM;
     padding-left: .6REM;
-    border-left: .12REM SOLID var(--title-border);
+    border-left: .15REM SOLID var(--title-border);
     text-align: center;
     letter-spacing: .13rem;
     cursor: pointer;
 
 }
+
+/* NAVIGATION SECTION */
 
 .nav-links {
     display: flex;
@@ -37,19 +47,15 @@
 
 .nav-links a {
     padding: .1REM;
-    border-bottom: .12REM SOLID transparent;
+    border-bottom: .1REM SOLID transparent;
     transition: .4s;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 1.05rem;
     text-decoration: none;
     color: var(--font-color);
-
-
 }
 
 .nav-links a:hover {
-    border-bottom: .12REM SOLID var(--title-border);
-    border-radius: .1rem;
-
+    border-bottom: .1REM SOLID var(--title-border);
 }

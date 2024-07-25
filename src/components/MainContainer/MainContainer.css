@@ -1,3 +1,5 @@
+/* MAIN CONTAINER SECTION AND OTHERS */
+
 #main-container {
     padding: 0;
     display: flex;
@@ -12,11 +14,21 @@
 
 #portfolio, #about, #contact {
     height: 100vh;
-    background-color: var(--font-color);
+    background-color: var(--bg-light);
     width: 100%;
-    color: var(--bg-white);
-    background-color: var(--font-color);
+    color: var(--font-color);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio {
+}
+
+/* ABOUT SECTION */
+
+#about {
+
 }
 
 #about .profile-img {
@@ -39,6 +51,12 @@
 
 .about-box, .portfolio-box, .contact-box {
     margin: 1.5rem;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+
 }
 
 .contact-box {

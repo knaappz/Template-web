@@ -1,11 +1,17 @@
+:root {
+  --title-border-gr: linear-gradient(90deg, #B5C18E, #F8EDED);
+  --title-border: #B5C18E;
+  --font-color: #173B45;
+  --bg-light: #e9d9f2;
+  --bg-white: #FFE6E6;
+  --color-line: #7469B6;
+  --pink: #E1AFD1;
+}
+
 #root {
   width: 100%;
   margin: 0 auto;
-  
-  --title-border: #FF8225;
-  --font-color: #173B45;
-  --bg-white: #F8EDED;
-  --color-line: #B43F3F;
+
 }
 
 body {
