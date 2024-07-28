@@ -1,5 +1,6 @@
 import './Header.css'
 import NavLinks from '../NavLinks/NavLinks'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -8,7 +9,7 @@ export default function Header() {
       <div className='color-line'></div>
       <section id='header'>
       <div className='header-box'>
-        <h3>Patrycja ignatowicz</h3>
+        <Link to='/'><h3>Patrycja Ignatowicz</h3></Link>
         <NavLinks/>
       </div>
     </section>

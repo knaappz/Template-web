@@ -9,7 +9,16 @@
     align-items: center;
     flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-box a {
+    text-decoration: none;
     color: var(--font-color);
+    transition: .3s;
+}
+
+.header-box a:hover {
+    color: rgb(102, 40, 110);
 }
 
 .color-line {

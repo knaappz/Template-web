@@ -1,0 +1,33 @@
+/* MAIN CONTAINER SECTION AND OTHERS */
+
+#portfolio {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-light);
+    color: var(--font-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.5rem;
+    color: var(--font-color);
+    display: flex;
+}
+
+.projects {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.projects .box {
+    border: .1rem solid black;
+    border-radius: .5rem;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
