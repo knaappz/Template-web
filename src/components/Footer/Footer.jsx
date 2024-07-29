@@ -1,5 +1,5 @@
 import './Footer.css'
-import NavLinks from '../NavLinks/NavLinks'
+import NavLinks from '../Header/NavLinks/NavLinks'
 
 export default function Footer() {
 

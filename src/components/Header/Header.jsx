@@ -1,6 +1,5 @@
 import './Header.css'
-import NavLinks from '../NavLinks/NavLinks'
-import { Link } from 'react-router-dom';
+import NavLinks from '../Header/NavLinks/NavLinks'
 
 export default function Header() {
 
