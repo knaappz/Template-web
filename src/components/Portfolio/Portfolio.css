@@ -3,31 +3,53 @@
 #portfolio {
     flex-direction: column;
     align-items: center;
-    background-color: var(--bg-light);
     color: var(--font-color);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1.5rem;
-    color: var(--font-color);
+    padding:0  1.5rem 0 1.5rem;
     display: flex;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .projects {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    background: linear-gradient(90deg, rgba(221,207,229,0) 0%, rgba(221,207,229,0.8681974010307247) 25%, rgba(221,207,229,1) 50%, rgba(221,207,229,0.8737996419270834) 75%, rgba(221,207,229,0) 100%);
 }
 
-.projects .box {
-    border: .1rem solid black;
+.box {
+    position: relative;
     border-radius: .5rem;
-    width: 100%;
+    width: 40rem;
     height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
 }
 
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
 
+.box h3 {
+    color: #fff;
+    width: 100%;
+    padding: .4rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
 
+.box img:hover {
+    scale: 1.1;
+}

@@ -9,7 +9,7 @@ export default function Header() {
       <div className='color-line'></div>
       <section id='header'>
       <div className='header-box'>
-        <Link to='/'><h3>Patrycja Ignatowicz</h3></Link>
+        <a href='/'><h3>Patrycja Ignatowicz</h3></a>
         <NavLinks/>
       </div>
     </section>

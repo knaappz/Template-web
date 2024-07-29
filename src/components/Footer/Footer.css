@@ -7,11 +7,12 @@
     margin-top: 7rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer-box {
     width: 80%;
-    height: 20rem;
+    height: 15rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,8 +21,14 @@
 }
 
 .footer-box h3 {
+    width: auto;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .13rem;
+    cursor: pointer;
+
 }
 
 .footer-box .nav-links {
@@ -48,4 +55,11 @@
 
 .footer-box p {
     width: 20rem;
+}
+
+.footer-box a {
+    width: 100%;
+    text-decoration: none;
+    color: var(--font-color);
+    transition: .3s;
 }
