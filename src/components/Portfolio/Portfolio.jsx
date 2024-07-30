@@ -1,14 +1,8 @@
 import './Portfolio.css';
-import { useNavigate } from 'react-router-dom';
+import { NavigationHelper } from '../NavigationHelper/NavigationHelper';
 
 export default function Portfolio() {
-    const navigate = useNavigate();
-    const handleHelsinki = () => {
-        navigate('/helsinki');
-    };
-    const handleZiola = () => {
-        navigate('/ziola');
-    };
+    const { handleHelsinki, handleZiola } = NavigationHelper();
 
     return (
       <section id='portfolio'>
@@ -17,11 +11,11 @@ export default function Portfolio() {
 
                 <section className='box-row'>
                     <div to='/helsinki' className="box" onClick={handleHelsinki}>
-                        <img src="https://cdn.discordapp.com/attachments/1198369639051305064/1210194853632278588/Image14_000.png?ex=66a82d89&is=66a6dc09&hm=0fb75db28064e3877bc0839e1fd5ff6c186a3ebdb23676e09c9c35c33e7820f3&" alt="" />
+                        <img src="https://static.travelgay.com/media/67375/helsinki-cathedral-4189824-1920-e1598282435396.jpg" alt="" />
                         <h3>Helsinki</h3>
                     </div>
                     <div className="box" onClick={handleZiola}>
-                        <img src="https://cdn.discordapp.com/attachments/1198369639051305064/1210194853632278588/Image14_000.png?ex=66a82d89&is=66a6dc09&hm=0fb75db28064e3877bc0839e1fd5ff6c186a3ebdb23676e09c9c35c33e7820f3&" alt="" />
+                        <img src="https://centinal.kr/wp-content/uploads/2023/03/banner-1-1.jpg" alt="" />
                         <h3>Ziola</h3>
                     </div>
                     <div className="box">

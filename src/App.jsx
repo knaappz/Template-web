@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Helsinki from './components/ProjectPages/Helsinki'
 import Ziola from './components/ProjectPages/Ziola';
 
-
 function App() {
 
   return (
