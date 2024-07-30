@@ -25,7 +25,7 @@
 
 #header h3 {
     text-transform: uppercase;
-    padding-left: .6rem;
+    padding-left: 1rem;
     border-left: .15rem solid var(--title-border);
     text-align: center;
     letter-spacing: .13rem;

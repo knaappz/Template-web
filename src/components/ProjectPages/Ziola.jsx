@@ -1,17 +1,18 @@
 import './Projects.css'
-import { useNavigate } from 'react-router-dom';
+import BackBTN from '../Buttons/BackBTN'
 
 export default function Ziola() {
-  const navigate = useNavigate();
-  const handleBoxClick = () => {
-      navigate('/');
-  };
 
   return (
-  <section id='main-container'>
-    <h3 onClick={handleBoxClick} >Main</h3>
-    <h1>Ziola</h1>
+  <>
+    <div className='color-line'></div>
+    <section id='projects'>
+    <div className='project-header'>
+      <BackBTN/>
+      <h1>Ziola</h1>
+    </div>
 
-  </section>  
+    </section>  
+  </>
 )
 }
