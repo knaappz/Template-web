@@ -8,7 +8,7 @@ export default function MainContainer() {
   return (
   <section id='main-container'>
     <About/>
-    <Portfolio/> 
+    <Portfolio/>
     <Contact/> 
   </section>  
 )

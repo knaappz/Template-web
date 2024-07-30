@@ -21,8 +21,8 @@
 
 .box {
     position: relative;
-    width: 12rem;
-    height: 25rem;
+    width: 15rem;
+    height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,5 +57,5 @@
 .box-row {
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 2rem;
 }
