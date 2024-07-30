@@ -40,8 +40,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(90deg, rgba(221,207,229,0) 0%, rgba(226,235,196,0.8653962805825455) 25%, rgba(226,235,196,1) 50%, rgba(226,235,196,0.8681974010307247) 75%, rgba(181,193,142,0) 100%);
-    padding: 2.5rem 1rem;
+    background: radial-gradient(var(--bg-darker),var(--bg-darkerr), var(--bg-darkerrr), #9198e500, #9198e500); 
+    padding: 10rem 1rem;
     width: 80%;
     height: 100vh;
 }
@@ -52,6 +52,9 @@ h2 {
 
 .description {
     display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
 }
 
 /* CONTACT SECTION */
@@ -65,7 +68,8 @@ h2 {
 .contact-box {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(90deg, rgba(54,109,124,0) 0%, rgba(243,234,248,0.870998521478904) 25%, rgba(243,234,248,1) 50%, rgba(243,234,248,0.8653962805825455) 75%, rgba(54,109,124,0) 100%);
+    justify-content: center;
+    background: radial-gradient(var(--bg-darker),var(--bg-darkerr), var(--bg-darkerrr), #9198e500, #9198e500); 
     padding: 2.5rem 1rem;
     width: 80%;
     height: 100vh;
