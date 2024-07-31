@@ -21,6 +21,7 @@
 body {
   margin: 0rem;
   background-color: #F8EDED;
+  min-width: 1065px;
 }
 
 html {

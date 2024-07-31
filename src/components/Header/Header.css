@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0rem .1rem rgb(213, 213, 213);
 }
 
 .color-line {
@@ -17,10 +18,12 @@
 }
 
 .header-box {
-    width: 90vw;
+    width: 90%;
+    margin-left: 10rem;
+    margin-right: 10rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between   ;
 }
 
 #header h3 {

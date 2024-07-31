@@ -22,12 +22,13 @@
 
 .box {
     position: relative;
-    width: 15rem;
-    height: 30rem;
+    width: 17%;
+    height: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 10rem 10rem 0 0;
+    border: .3rem solid rgb(255, 255, 255);
     overflow: hidden;
     cursor: pointer;
 }
@@ -58,5 +59,8 @@
 .box-row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 5rem solid rgb(98, 66, 25);
 }
