@@ -1,5 +1,7 @@
 import './Buttons.css'
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export default function BackBTN() {
   const navigate = useNavigate();
@@ -9,7 +11,10 @@ export default function BackBTN() {
 
   return (
     <section className='button-width'>
-        <button className='backBTN' onClick={handleBoxClick}>Wstecz</button> 
+        <button className='backBTN' onClick={handleBoxClick}>
+            <FontAwesomeIcon icon="fa-solid fa-chevron-left" />
+            <h3>Wstecz</h3>
+        </button> 
     </section>
 )
 }

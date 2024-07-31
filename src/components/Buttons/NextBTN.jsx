@@ -1,5 +1,7 @@
 import './Buttons.css';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export default function NextBTN() {
   const navigate = useNavigate();
@@ -17,7 +19,10 @@ export default function NextBTN() {
 
   return (
     <section className='button-width'>
-      <button className='backBTN' onClick={handleNextClick}>Następny</button> 
+      <button className='backBTN' onClick={handleNextClick}>
+        <h3>nastepny </h3>
+        <FontAwesomeIcon icon="chevron-right" />
+        </button> 
     </section>
   );
 }

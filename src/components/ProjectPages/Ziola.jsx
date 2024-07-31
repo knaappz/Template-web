@@ -14,7 +14,7 @@ export default function Ziola() {
   return (
   <>
     <div className='color-line'></div>
-    <section id='projects'>
+    <section id='projects' className="fade-in">
     <div className='project-header'>
       <BackBTN/>
       <h1>Ziola</h1>
@@ -76,9 +76,9 @@ export default function Ziola() {
 
       </div>
 
+      <div className="separator"></div>
 
     </section>
-    <Footer/> 
   </>
 )
 }

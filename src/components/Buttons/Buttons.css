@@ -2,20 +2,26 @@
 }
 
 .backBTN {
-    width: 10rem;
     height: 4rem;
     border: 0;
     border-radius: .5rem;
     transition: .2s;
     color: var(--font-color);
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.backBTN h3 {
     text-transform: uppercase;
     font-family: 'Roboto';
     font-weight: 400;
+    border-bottom: .1rem solid transparent;
 }
 
-.backBTN:hover {
-    background-color: var(--font-color-opacity);
+.backBTN h3:hover {
+    border-bottom: .1rem solid var(--title-border);
 }
 
 .backBTN:active {

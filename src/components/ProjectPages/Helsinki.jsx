@@ -13,7 +13,7 @@ export default function Helsinki() {
   return (
   <>
     <div className='color-line'></div>
-    <section id='projects'>
+    <section id='projects' className="fade-in">
       <div className='project-header'>
         <BackBTN/>
         <h1>Helsinki</h1>
@@ -76,9 +76,8 @@ export default function Helsinki() {
 
       </div>
 
-
+      <div className="separator"></div>
     </section>
-    <Footer/>  
   </>
 )
 }
