@@ -4,6 +4,10 @@ import { NavigationHelper } from '../NavigationHelper/NavigationHelper';
 export default function Portfolio() {
     const { handleHelsinki, handleZiola } = NavigationHelper();
 
+    const handleError = (event) => {
+        event.target.src = '../../../assets/fallback.jpg'; // Path to your fallback image
+    };
+
     return (
       <section id='portfolio'>
           <div className="projects">
@@ -11,21 +15,21 @@ export default function Portfolio() {
 
                 <section className='box-row'>
                     <div to='/helsinki' className="box" onClick={handleHelsinki}>
-                        <img src="../../../public/assets/helsinki/model1.jpg" alt="" />
+                        <img src="../../../assets/helsinki/model1.jpg" alt="" />
                         <h3>Helsinki</h3>
                     </div>
                     <div className="box" onClick={handleZiola}>
-                        <img src="https://centinal.kr/wp-content/uploads/2023/03/banner-1-1.jpg" alt="" />
+                        <img src="obraz" />
                         <h3>Ziola</h3>
                     </div>
                     <div className="box">
-                        <img src="https://cdn.discordapp.com/attachments/1198369639051305064/1210194853632278588/Image14_000.png?ex=66a82d89&is=66a6dc09&hm=0fb75db28064e3877bc0839e1fd5ff6c186a3ebdb23676e09c9c35c33e7820f3&" alt="" />
-                        <h3>Nazwa projektu 3</h3>
+                    <img src="obraz"  />
+                    <h3>Nazwa projektu 3</h3>
                     
                     </div>
                     <div className="box">
-                        <img src="https://cdn.discordapp.com/attachments/1198369639051305064/1210194853632278588/Image14_000.png?ex=66a82d89&is=66a6dc09&hm=0fb75db28064e3877bc0839e1fd5ff6c186a3ebdb23676e09c9c35c33e7820f3&" alt="" />
-                        <h3>Nazwa projektu 4</h3>
+                    <img src="obraz"  />
+                    <h3>Nazwa projektu 4</h3>
                     </div>
                 </section>
           </div>

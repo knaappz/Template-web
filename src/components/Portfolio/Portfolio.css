@@ -22,7 +22,7 @@
 
 .box {
     position: relative;
-    width: 17%;
+    width: 12rem;
     height: 25rem;
     display: flex;
     align-items: center;
@@ -36,7 +36,8 @@
 .box img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
+    object-position: center;
     transition: .5s;
 }
 
