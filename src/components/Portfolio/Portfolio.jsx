@@ -11,7 +11,7 @@ export default function Portfolio() {
 
                 <section className='box-row'>
                     <div to='/helsinki' className="box" onClick={handleHelsinki}>
-                        <img src="https://static.travelgay.com/media/67375/helsinki-cathedral-4189824-1920-e1598282435396.jpg" alt="" />
+                        <img src="../../../public/assets/helsinki/model1.jpg" alt="" />
                         <h3>Helsinki</h3>
                     </div>
                     <div className="box" onClick={handleZiola}>

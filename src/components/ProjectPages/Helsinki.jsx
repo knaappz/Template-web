@@ -1,8 +1,6 @@
 import './Projects.css'
-import BackBTN from '../Buttons/BackBTN'
-import NextBTN from '../Buttons/NextBTN'
-import Footer from '../Footer/Footer'
 import { useEffect } from 'react';
+import ProjectHeader from './ProjectHeader';
 
 export default function Helsinki() {
 
@@ -14,15 +12,10 @@ export default function Helsinki() {
   <>
     <div className='color-line'></div>
     <section id='projects' className="fade-in">
-      <div className='project-header'>
-        <BackBTN/>
-        <h1>Helsinki</h1>
-        <NextBTN/>
-
-      </div>
+      <ProjectHeader projectName="Helsinki"/>
 
       <div className="helsinki-desc">
-        <img src="https://static.travelgay.com/media/67375/helsinki-cathedral-4189824-1920-e1598282435396.jpg" alt="" />
+        <img src="../../../public/assets/helsinki/model1.jpg" alt="" />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Modi eius voluptates eaque dolorum itaque tempora quod, laboriosam a quae nemo corporis accusantium fuga minima iusto quia? 
           Voluptates eligendi nulla perferendis!Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -51,13 +44,13 @@ export default function Helsinki() {
           Voluptates eligendi nulla perferendis!
         </p>
 
-        <img className='smaller' src="https://static.travelgay.com/media/67375/helsinki-cathedral-4189824-1920-e1598282435396.jpg" alt="" />
+        <img className='smaller' src="../../../public/assets/helsinki/model2.jpg" alt="" />
 
 
       </div>
 
       <div className="helsinki-desc">
-      <img className='smaller' src="https://static.travelgay.com/media/67375/helsinki-cathedral-4189824-1920-e1598282435396.jpg" alt="" />
+      <img className='smaller' src="../../../public/assets/helsinki/model3.jpg" alt="" />
 
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Modi eius voluptates eaque dolorum itaque tempora quod, laboriosam a quae nemo corporis accusantium fuga minima iusto quia? 

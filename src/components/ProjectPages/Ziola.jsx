@@ -1,9 +1,6 @@
 import './Projects.css'
-import BackBTN from '../Buttons/BackBTN'
-import NextBTN from '../Buttons/NextBTN'
-import Footer from '../Footer/Footer'
 import { useEffect } from 'react';
-
+import ProjectHeader from './ProjectHeader';
 
 export default function Ziola() {
 
@@ -15,11 +12,7 @@ export default function Ziola() {
   <>
     <div className='color-line'></div>
     <section id='projects' className="fade-in">
-    <div className='project-header'>
-      <BackBTN/>
-      <h1>Ziola</h1>
-      <NextBTN/>
-    </div>
+    <ProjectHeader projectName={"Zioła"}/>
 
     <div className="helsinki-desc">
         <img src="https://centinal.kr/wp-content/uploads/2023/03/banner-1-1.jpg" alt="" />

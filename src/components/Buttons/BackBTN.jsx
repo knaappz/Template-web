@@ -13,7 +13,7 @@ export default function BackBTN() {
     <section className='button-width'>
         <button className='backBTN' onClick={handleBoxClick}>
             <FontAwesomeIcon icon="fa-solid fa-chevron-left" />
-            <h3>Wstecz</h3>
+            <h3>Strona główna</h3>
         </button> 
     </section>
 )
