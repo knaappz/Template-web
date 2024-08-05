@@ -64,3 +64,10 @@
 .nav-links a:hover {
     border-bottom: .1rem solid var(--title-border);
 }
+
+@media (max-width: 430px) {
+
+    .nav-links a {
+      font-size: 12px;
+    }
+  }

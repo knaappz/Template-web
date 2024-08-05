@@ -21,7 +21,6 @@
 body {
   margin: 0rem;
   background-color: #F8EDED;
-  min-width: 460px;
 }
 
 html {
@@ -38,7 +37,7 @@ html {
   }
 
   .about-box {
-    padding: 5rem 1rem;
+    padding: 5rem 0rem;
   }
 
   #contact, #portfolio {
@@ -47,10 +46,6 @@ html {
 
   .box-row {
     flex-wrap: wrap;
-  }
-
-  .contact-box {
-    height: 20rem;
   }
 
 }
