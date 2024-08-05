@@ -1,7 +1,7 @@
 /* MAIN CONTAINER SECTION AND OTHERS */
 
 #projects {
-    width: 90vw;  
+    padding: 0 5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -36,6 +36,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -44,16 +45,13 @@
 }
 
 .helsinki-desc img {
-    width: 40%;
+    width: 400px;
+    height: 250px;
     border: .15rem solid var(--font-color);
     border-radius: .5rem;
 }
 
-.helsinki-desc .smaller {
-    width: 40%;
-    border: .15rem solid var(--font-color);
-    border-radius: .5rem;
-}
+
 
 .separator {
     width: 100%;

@@ -6,6 +6,8 @@
     align-items: center;
     width: 100%;
     color: var(--font-color);
+    background-image: url('../../../public/assets/wallv6.jpg');
+    background-position: center;
 }
 
 .projects {
@@ -17,7 +19,6 @@
     justify-content: center;
     gap: 2rem;
     padding: 0rem 1rem;
-    background: radial-gradient(var(--bg-darker),var(--bg-darkerr), var(--bg-darkerrr), #9198e500, #9198e500); 
 }
 
 .box {
@@ -28,7 +29,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 10rem 10rem 0 0;
-    border: .3rem solid rgb(255, 255, 255);
+    border: .3rem solid rgb(157, 143, 120);
+    background-color: white;
     overflow: hidden;
     cursor: pointer;
 }
@@ -62,6 +64,4 @@
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    padding-bottom: 3rem;
-    border-bottom: 5rem solid rgb(98, 66, 25);
 }

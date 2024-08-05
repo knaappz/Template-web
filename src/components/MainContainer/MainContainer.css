@@ -39,7 +39,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: radial-gradient(var(--bg-darker),var(--bg-darkerr), var(--bg-darkerrr), #9198e500, #9198e500); 
     padding: 10rem 1rem;
     width: 80%;
     height: 100vh;
@@ -68,7 +67,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: radial-gradient(var(--bg-darker),var(--bg-darkerr), var(--bg-darkerrr), #9198e500, #9198e500); 
     padding: 2.5rem 1rem;
     width: 80%;
     height: 100vh;
