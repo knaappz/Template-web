@@ -21,10 +21,48 @@
 body {
   margin: 0rem;
   background-color: #F8EDED;
-  min-width: 1065px;
+  min-width: 460px;
 }
 
 html {
   scroll-behavior: smooth;
   font-family: 'Roboto';
+}
+
+@media (max-width: 990px) {
+  .about-box .description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-box {
+    padding: 5rem 1rem;
+  }
+
+  #contact, #portfolio {
+    padding: 12rem 0  ;
+  }
+
+  .box-row {
+    flex-wrap: wrap;
+  }
+
+  .contact-box {
+    height: 20rem;
+  }
+
+}
+
+@media (max-width: 740px) {
+
+  .header-box {
+    flex-direction: column;
+  }
+
+  #header {
+    padding: .5rem 0;
+  }
+
 }

@@ -5,10 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .section-title {
-    width: 40rem;
     text-align: left;
     margin: 0;
 }
@@ -40,8 +40,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding: 10rem 1rem;
-    width: 80%;
-    height: 100vh;
 }
 
 .about-box p {
@@ -70,4 +68,10 @@ h2 {
     padding: 2.5rem 1rem;
     width: 80%;
     height: 100vh;
+}
+
+@media (max-width: 990px) {
+    .contact-box {
+        height: 10rem;
+    }
 }
