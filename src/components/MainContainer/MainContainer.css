@@ -75,3 +75,9 @@ h2 {
         height: 10rem;
     }
 }
+
+@media (max-width: 345px) {
+    .about-box p {
+        width: auto;
+    }
+}

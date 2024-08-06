@@ -70,4 +70,8 @@
     .nav-links a {
       font-size: 12px;
     }
+
+    .nav-links {
+        gap: 2rem;
+    }
   }
